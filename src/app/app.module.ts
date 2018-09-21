@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import { HeroesComponent } from './heroes/heroes.component';
 import { DetalleHeroesComponent } from './detalle-heroes/detalle-heroes.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    DetalleHeroesComponent
+    DetalleHeroesComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
